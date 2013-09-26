@@ -1,6 +1,6 @@
 #puppet-awstools
 
-Puppet manifest to install aws [AWS (Amazon Web Services) tools](http://aws.amazon.com/)
+Puppet manifest to install aws [AWS (Amazon Web Services)](http://aws.amazon.com/) tools
 
 [![Build Status](https://secure.travis-ci.org/icalvete/puppet-awstools.png)](http://travis-ci.org/icalvete/puppet-awstools)
 
