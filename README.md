@@ -19,6 +19,7 @@ Install and configure AWS (Amazon Web Services) tools
 
 **Password, keys, certificates... are dummy**
 
+```puppet
     node fourandgo {
       $tenant = 'fourandgo'
     
@@ -46,6 +47,7 @@ Install and configure AWS (Amazon Web Services) tools
         ec2_cert        => 'cert-VGOWNGW3ZI7GQCOKBH42WKDQ7OCK2PVA.pem',
       }
     }
+```
 
 Keys will be in $config_dir/$tenant/files. **This module should not be public.**
 
